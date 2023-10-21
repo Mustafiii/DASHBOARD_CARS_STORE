@@ -77,7 +77,7 @@ public class index extends HttpServlet {
 	    	response.sendRedirect("ShowCar");
 	    } else {
 	        request.setAttribute("error", "Invalid email or password");
-	        this.getServletContext().getRequestDispatcher("/").forward(request, response);
+	        this.getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
 	    }
 	}
 }

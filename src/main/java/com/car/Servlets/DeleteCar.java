@@ -46,7 +46,7 @@ public class DeleteCar extends HttpServlet {
 	    boolean success = carDaoDelete.deleteCarByID(carID);
 
 	    if (success) {
-	        response.getWriter().println("Car with ID " + carID + " deleted successfully.");
+	        response.sendRedirect("ShowCar");
 	    } else {
 	        response.getWriter().println("No car with ID " + carID + " found.");
 	    }

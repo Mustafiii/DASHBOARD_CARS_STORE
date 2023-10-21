@@ -107,9 +107,9 @@
             <option value="black">Black</option>
             <option value="yellow">Yellow</option>
             <option value="red">Red</option>
-            <option value="red">green</option>
-            <option value="red">gray</option>
-            <option value="red">blue</option>
+            <option value="green">green</option>
+            <option value="gray">gray</option>
+            <option value="blue">blue</option>
         </select>
     </div>
 </div>

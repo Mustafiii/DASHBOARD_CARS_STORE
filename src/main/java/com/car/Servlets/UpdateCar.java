@@ -76,7 +76,7 @@ public class UpdateCar extends HttpServlet {
 		
 
         carDao.update(car);
-
+        request.setAttribute("succes", "car updated succesfully");
         request.setAttribute("cars", carDao.lister());
         response.sendRedirect("ShowCar");
   }

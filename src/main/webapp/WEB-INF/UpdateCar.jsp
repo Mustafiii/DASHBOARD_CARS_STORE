@@ -42,6 +42,7 @@
                             </div>
                             <div class="flex-auto px-4 lg:px-10 py-10 pt-10">
                                 <form onsubmit="return confirmDelete();" action="UpdateCar" method="post">
+
                                     <input type="hidden" name="carID" value="${carDetails.id}">
                                     <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
                                         Car Information
